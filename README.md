@@ -1,11 +1,12 @@
-I built my first frontend project using pure HTML, CSS and JavaScript.
+# ScreenSpark Technologies
 
-It's a fictional tech company website called ScreenSpark Technologies.
+Fictional portfolio website created with HTML, CSS and vanilla JavaScript.
 
-Features:
+## Brand concept
+ScreenSpark Technologies is a fictional technology brand focused on innovation, digital experiences, automation and product prototyping.
 
-responsive layout
-reveal on scroll animations
-horizontal slider built with vanilla JS
-contact form with auto-resize textarea
-I'd love feedback on: • layout • UX • code structure • things I could improve
+## Project goals
+- practise semantic HTML
+- improve CSS layout skills
+- build interactive UI with vanilla JavaScript
+- create a structured portfolio project
