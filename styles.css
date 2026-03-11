@@ -48,8 +48,10 @@ header {
 }
 
 .nav-bar {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 30px;
     flex-direction: row;
 }
@@ -79,6 +81,11 @@ header {
 .nav-bar a:visited {
     color: inherit;
 }
+
+.nav-bar a:active {
+    color: inherit;
+}
+
 .main-container {
    
     max-width: 1070px;
@@ -370,8 +377,8 @@ footer {
 
 /* MEDIA QUERIES BELOW */
 
-/* TABLET */
-@media (min-width: 768px) {
+
+@media (min-width: 420px) and (max-width: 1024px) {
     .logo {
         width: 80px;
         height: 80px;
@@ -396,6 +403,33 @@ footer {
     .home-img {
         width: 240px;
     }
+    
+    .home-img2 {
+    width: 540px;
+    height: 370px;
+    }
+
+    .about-text {
+        font-size: 15px;
+        grid-area: text;
+    }
+
+    .image-about1 {
+        grid-area: img1;
+    }
+
+    .image-about2 {
+        grid-area: img2;
+        
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-areas: 
+            "text text text"
+            "img1 img1 img1"
+            "img2 img2 img2";
+    }
 
     .form-container {
         padding: 40px 30px;
@@ -408,6 +442,7 @@ footer {
     }
 
     footer {
+        width: 100%;
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
