@@ -384,6 +384,10 @@ footer {
         height: 80px;
     }
 
+    .logo-text {
+        font-size: 15px;
+    }
+
     .nav-bar {
         gap: 24px;
     }
@@ -427,8 +431,7 @@ footer {
         display: grid;
         grid-template-areas: 
             "text text text"
-            "img1 img1 img1"
-            "img2 img2 img2";
+            "img1 img1 img2";
     }
 
     .form-container {
