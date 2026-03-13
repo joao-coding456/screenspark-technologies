@@ -466,8 +466,6 @@ footer {
 
     .main-container {
         padding-top: var(--header-height);
-        display: flex;
-        justify-content: center;
     }
 
     .title {
