@@ -379,6 +379,11 @@ footer {
 
 
 @media (min-width: 420px) and (max-width: 1024px) {
+
+    body {
+        width: 100%;
+    }
+
     .logo {
         width: 80px;
         height: 80px;
