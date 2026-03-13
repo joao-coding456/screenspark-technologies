@@ -382,6 +382,7 @@ footer {
 
     body {
         width: 100%;
+        margin: auto;
     }
 
     .logo {
@@ -465,6 +466,8 @@ footer {
 
     .main-container {
         padding-top: var(--header-height);
+        display: flex;
+        justify-content: center;
     }
 
     .title {
